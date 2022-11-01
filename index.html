@@ -5,43 +5,47 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"rel="stylesheet">
+		<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-	<header>
+	<header class="header">
 		<!--!logo-->
-		<a href="#">
+		<a class="header-logo" href="#">
 			<img src="./images/logo.svg" alt="logo" width="69" height="54">
 		</a>
 		<!--!navigation-->
-		<nav> 
-                <ul>
+		<nav class="navigation"> 
+                <ul >
 					<li>
-						<a href="#">About</a>
+						<a class="link nav-link" href="#">About</a>
 					</li>
 					<li>
-						<a href="#">Services and prices</a>
+						<a class="link nav-link" href="#">Services and prices</a>
 					</li>
 					<li>
-                        <a href="#">Barbers</a>
+                        <a class="link nav-link" href="#">Barbers</a>
 					</li>
 					<li>
-                        <a href="#">Contacts</a>
+                        <a class="link nav-link" href="#">Contacts</a>
 					</li>
 				</ul>
 					</nav>
-					<a href="tel:+380441111111">+38 044 111 11 11</a>
-					<button type="button">Online-booking</button>
+					<a class="link nav-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+					<button class="nav-btn" type="button">Online-booking</button>
 					</header>
-					<main>
+					<main class="main">
 						<!--!main-->
-						<section>
-							<p>A hair salon for men in Kyiv</p>
-							<h1>BarberShop</h1>
-							<p>We are experts in trendy men’s haircuts.
+						<section class="hero">
+							<p class="uptitle" >A hair salon for men in Kyiv</p>
+							<h1 class="hero-title">BarberShop</h1>
+							<p class="hero-desc">We are experts in trendy men’s haircuts.
 							We work quickly, carefully and with style.</p>
 						</section>
 						<!--!barbershop-work-->
-						<section>
+						<section class="about">
 							<ul>
 								<li>
 									<img src="./images/work-img1.jpg" alt="barbershop work" width="270" height="445">
@@ -50,17 +54,17 @@
 									<img src="./images/work-img2.jpg" alt="barbershop work" width="270" height="445">
 								</li>
 							</ul>
-							<p>About</p>
-							<h2>Best Barbershop in your city</h2>
-							<p>you want to add more confidence to your image, you should definitely visit us.</P>
-							<p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
+							<p class="uptitle" >About</p>
+							<h2 class="up-title">Best Barbershop in your city</h2>
+							<p class="about-sabtitle">you want to add more confidence to your image, you should definitely visit us.</P>
+							<p class="about-desc">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
 							of our master, you will never be the same again. We are a team that is always "on the same wave" with clients.
 							Therefore, we are always ready to improve everyone who comes to us!</p>
-							<button type="button">ONLINE-BOOKING</button>
+							<button class="about-btn" type="button">ONLINE-BOOKING</button>
 						</section>
 						<!--!services-prices-->
 						<section>
-							<p>Spend your time with the best masters</p>
+							<p class="uptitle" >Spend your time with the best masters</p>
 							<h2>Services and prices</h2>
 							<ul>
 								<li>
@@ -120,14 +124,14 @@
 							</li>
 						</ul>
 						<div>
-							<p>Old traditional school</p>
+							<p class="uptitle">Old traditional school</p>
 							<h2>¿Why people come to us?</h2>
 							<p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times.</p>
 						</div>
 						</section>
 						<!--!personnel-->
 						<section>
-							<p>For true enjoyers of the atmosphere</p>
+							<p class="uptitle">For true enjoyers of the atmosphere</p>
 							<h2>Our barbers</h2>
 							<ul>
 							<li>
@@ -203,7 +207,7 @@
 						</section>
 						<!--!process-->
 						<section>
-							<p>In Latin, "barba" means "beard"</p>
+							<p class="uptitle">In Latin, "barba" means "beard"</p>
 							<h2 hidden>profolio</h2>
 							<ul>
 							<li><img src="./images/process1.jpg" alt="process1" width="270" height="360"></li>
