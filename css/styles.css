@@ -6,8 +6,8 @@
 /*!колыр*/
 --col-black: #303030;
 --col-gray: #555555;
---link-wh: #FFFFFF;
---list-lgray: #9DA4BD;
+--col-white: #FFFFFF;
+--col-lgray: #9DA4BD;
 }
 
 
@@ -40,7 +40,7 @@ font-weight: 600;
 font-size: 12px;
 line-height: 1.3333;
 letter-spacing: 0.1em;
-color: var(--link-wh);
+color: var(--col-white);
 text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ font-size: 12px;
 line-height: 1.3333;
 letter-spacing: 0.09em;
 text-transform: uppercase;
-color: var(--link-wh);
+color: var(--col-white);
 background-color: transparent;
 }
 
@@ -80,7 +80,7 @@ font-family: var(--fm-os);
 font-weight: 700;
 font-size: 72px;
 line-height: 1.18;
-color: var(--link-wh);
+color: var(--col-white);
 letter-spacing: 0.05em;
 }
 
@@ -127,3 +127,28 @@ text-transform: uppercase;
 }
 
 /*!інформація*/
+
+ .prices-title {
+font-family: var(--fm-rl)
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+columns: var(--col-white);
+letter-spacing: 0.05em;
+ }
+
+.prices-first .titlelu {
+font-size: 18px;
+line-height: 1.6666;
+color: var(--col-lgray);
+letter-spacing: 0.02em;
+}
+
+.prices-first .listlu {
+font-size: 18px;
+line-height: 1.6666;
+text-align: right;
+letter-spacing: 0.02em;
+color: var(--col-lgray);
+}
